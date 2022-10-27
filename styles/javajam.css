@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/fadedroad50.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #221811;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.page_wrap {
+  width: 80%;
+  min-width: 900px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #231814;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.45);
+  padding: 0;
+}
+
+header {
+  color: #231814;
+  background: url("../images/coffeelogo.jpg") no-repeat;
+  background-color: #d2b48c;
+  padding: 38px 0 38px 240px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:link,
+header a:visited {
+  color: #231814;
+}
+
+header a:hover {
+  color: #fef6c2;
+}
+
+.page_title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.navigation {
+  font-size: 1.5em;
+  padding: 5px 0;
+  float: left;
+  width: 200px;
+}
+
+.navigation a,
+a {
+  text-decoration: none;
+}
+
+.navigation a:link {
+  color: #fef6c2;
+}
+.navigation a:visited {
+  color: #d2b48c;
+}
+.navigation a:hover {
+  color: #cc9933;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 15px 0;
+}
+
+#homehero {
+  height: 300px;
+  background: url("../images/hero.jpg") center / cover no-repeat;
+}
+
+#heromugs {
+  height: 300px;
+  background: url("../images/heromugs.jpg") center / cover;
+}
+
+#heroguitar {
+  height: 300px;
+  background: url("../images/heroguitar.jpg") center / cover;
+}
+main {
+  padding: 0 0 2em;
+  margin-left: 200px;
+  background-color: #fef6c2;
+  overflow: auto;
+}
+
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+img {
+  padding: 0 10px;
+}
+
+h4 {
+  background: #d2b48c;
+  font-size: 1.2em;
+  padding: 0 0 0 0.5em;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  clear: left;
+}
+
+.floatleft {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+.details {
+  padding: 0 20%;
+  overflow: auto;
+}
+
+.onethird {
+  float: left;
+  width: 33%;
+}
+
+.coffee_title,
+.menu_title {
+  color: #8c3826;
+}
+
+dl {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+h3,
+dt {
+  color: #8c3826;
+}
+
+.coffee_text + ul {
+  margin: 0;
+}
+
+.contact {
+  padding: 25px 0;
+}
+
+.contact p {
+  margin: 0;
+}
+
+footer {
+  background-color: #d2b48c;
+  text-align: center;
+  font-size: 0.6em;
+  font-style: italic;
+  padding: 1em;
+  border-top: 2px solid #8c3826;
+}
+
+footer p {
+  margin: 0;
+}
